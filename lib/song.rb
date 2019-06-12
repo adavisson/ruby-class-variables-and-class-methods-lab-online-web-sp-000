@@ -57,16 +57,16 @@ class Song
   end
   
   def self.artist_count
-    artist_count_list = {}
+    artist_count_list = {}   #Initialize empty hash
     
     @@artists.each do |item|
-      if !artist_count_list.key?(item)
-        artist_count_list[item] = 1
+      if !artist_count_list.key?(item)    #Is artist already in hash
+        artist_count_list[item] = 1   #Then add it to hash
       else
-        artist_count_list[item] += 1
+        artist_count_list[item] += 1   #Then increment value by 1
       end
     end
-    artist_count_list
+    artist_count_list   #Return hash
   end
   
 end
