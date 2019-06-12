@@ -28,6 +28,7 @@ class Song
         array.push(genre)
       end
     end
+    array
   end
   
 end
