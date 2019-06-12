@@ -12,6 +12,9 @@ class Song
     
     #increase song count
     @@count += 1
+    
+    #populate genres and artists arrays
+    @@genres.push(genre)
   end
   
   def self.count
