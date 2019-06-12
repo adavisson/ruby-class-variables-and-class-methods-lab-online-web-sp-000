@@ -16,7 +16,7 @@ class Song
     
     #populate genres and artists arrays
     @@genres.push(genre)
-    @@artists.push(artists)
+    @@artists.push(artist)
   end
   
   def self.count
