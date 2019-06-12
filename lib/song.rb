@@ -52,6 +52,8 @@ class Song
       else
         genre_count_list[item] += 1
       end
+    end
+    genre_count_list
   end
   
 end
