@@ -43,4 +43,11 @@ class Song
     array
   end
   
+  def self.genre_count
+    genre_count_list = {}
+    
+    @@genres.each do |item|
+      if genre_count_list.
+  end
+  
 end
